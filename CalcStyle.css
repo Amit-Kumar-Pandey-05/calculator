@@ -22,6 +22,7 @@ body {
 .center {
     text-align: center;
     margin: .5em auto;
+    color:#93cdc6;
     font-family: cursive;
     text-shadow: 2px 2px 2px var(--btn-color);
 }
@@ -29,8 +30,8 @@ body {
 .calculator {
     margin: auto;
     padding: 3em;
-    width: 305px;
-    height: 450px;
+    width: 350px;
+    height: 500px;
     background-color: var(--main-color);
     border: 2px solid grey;
     border-radius: 18px;
@@ -46,7 +47,7 @@ body {
 }
 
 .screen input {
-    padding: .5em 5px;
+    padding: .5em 0px;
     border: none;
     font-size: 16px;
     text-align: end;
@@ -186,23 +187,23 @@ footer {
 
 body.blue {
     --main-color: rgb(3, 3, 28);
-    --btn-color: rgb(2, 8, 45);
+    --btn-color: rgb(38, 49, 114);
     --body-color: linear-gradient(to top, black, #090224);
     --btn-box-color: rgb(4, 4, 23);
     --numBtn-color: rgb(20, 43, 67);
 }
 
 body.red {
-    --main-color: #bc0505;
-    --btn-color: rgb(104, 3, 3);
+    --main-color: #900303;
+    --btn-color: rgb(202, 7, 7);
     --body-color: linear-gradient(to top, #18010a, #ae0505);
-    --btn-box-color: #bb0a0a;
+    --btn-box-color: #880505;
     --numBtn-color: rgb(132, 62, 62);
 }
 
 body.orange {
     --main-color: #c06006;
-    --btn-color: rgb(49, 29, 2);
+    --btn-color: rgb(196, 116, 19);
     --body-color: linear-gradient(to top, #200f01, #ed8106);
     --btn-box-color: #c1630b;
     --numBtn-color: rgb(98, 80, 30);
@@ -210,7 +211,7 @@ body.orange {
 
 body.grey {
     --main-color: rgb(99, 98, 98);
-    --btn-color: rgb(59, 57, 57);
+    --btn-color: rgb(87, 84, 84);
     --body-color: linear-gradient(to top, #000000, #787878);
     --btn-box-color: rgb(96, 92, 92);
     --numBtn-color: rgb(148, 146, 146);
@@ -218,15 +219,15 @@ body.grey {
 
 body.cyan {
     --main-color: rgb(5, 155, 155);
-    --btn-color: rgb(2, 47, 47);
+    --btn-color: rgb(38, 138, 138);
     --body-color: linear-gradient(to top, #010c17, #06cbb4);
     --btn-box-color: rgb(10, 155, 155);
-    --numBtn-color: rgb(47, 94, 94);
+    --numBtn-color: rgb(65, 138, 138);
 }
 
 body.pink {
     --main-color: #a80959;
-    --btn-color: rgb(51, 5, 37);
+    --btn-color: rgb(132, 17, 97);
     --body-color: linear-gradient(to top, #1a0119, #f40882);
     --btn-box-color: #a2135b;
     --numBtn-color: rgb(119, 49, 89);
@@ -234,15 +235,15 @@ body.pink {
 
 body.purple {
     --main-color: #9708df;
-    --btn-color: rgb(44, 2, 54);
+    --btn-color: rgb(127, 5, 157);
     --body-color: linear-gradient(to top, #050113, #c904f5);
     --btn-box-color: #9b15de;
-    --numBtn-color: rgb(72, 44, 72);
+    --numBtn-color: rgb(113, 57, 113);
 }
 
 body.yellow {
     --main-color: #a4aa06;
-    --btn-color: #686b07;
+    --btn-color: #919601;
     --body-color: linear-gradient(to top, #362f02, #e8f008);
     --btn-box-color: #9ea308;
     --numBtn-color: #afb166;
@@ -250,7 +251,7 @@ body.yellow {
 
 body.green {
     --main-color: #0d8e06;
-    --btn-color: #074b03;
+    --btn-color: #088601;
     --body-color: linear-gradient(to top, #011400, #11f305);
     --btn-box-color: #0f8a08;
     --numBtn-color: #4c8749;
@@ -266,7 +267,7 @@ body.white {
 
 body.skyblue {
     --main-color: #37a3ce;
-    --btn-color: #225d74;
+    --btn-color: #077099;
     --body-color: linear-gradient(to top, #0a1f27, #60cbf5);
     --btn-box-color: #57a8ca;
     --numBtn-color: #37a3ce;
